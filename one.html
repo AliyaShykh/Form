@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>form</title>
+   <style>
+   *
+	   { margin:0px;
+	   box-sizing:border-box;}
+	 body
+	 { background-image:url(main2.jpeg);
+	 background-size:cover;}
+	
+	
+       .container{
+		   height:400px;
+		   width:75%;
+		   margin-left:auto;
+		   margin-right:auto;
+		   margin-top:120px;
+		   
+		   }
+		   .Fleft{ float:left;}
+		   .Fright{ float:right;}
+		   .left{
+		   border-radius:33px 33px;	
+			  border-left:5px solid #906;
+			  height:inherit;
+			  width:20%;
+			  background-color:#666;
+			  padding-left:10px;
+			  padding-right:10px;
+			  padding-top:50px;
+			  
+			   }
+			   .login{
+				  font-size:32px;
+				  font-family:Verdana, Geneva, sans-serif;
+				  text-decoration:none; 
+				   color:#906;
+				   padding-left:40px;}
+   
+   	   .center{
+			  border-left:5px solid #906;
+			  height:inherit;
+			  width:60%;
+			  padding-left:60px; 
+			  padding-top:100px;
+			  padding-right:20px;
+			  background-color:#666;
+			   border-radius:33px 33px;
+			   }
+	               .txt{
+					margin-top:10px;
+					margin-bottom:20px;
+					
+			     			}
+                    .txtE{
+					   height:45px;
+					   width:89%;
+					   padding-left:20px;	
+					   padding-right:20px;	
+						font-size:16px;
+					   border:3px solid #906;				
+				     outline:none;
+						border-radius:33px 33px;
+						color:#906;
+						background-color:#CCC;
+						}
+						.center a{
+						color:#906;	
+							text-decoration:none;
+							font-size:18px;
+						    padding-left:20px;
+							}
+							
+							.center a:hover{
+								text-decoration:underline;
+								
+								}
+							
+							.btn
+							{
+							outline:none;
+							border:none;
+							width:40%;
+							height:50px;	
+								font-size:25px;
+								color:#CCC;
+								background-color:#666;
+								margin-top:20px;
+								margin-left:25%;
+								}
+						.btn:hover
+						{
+						   background-color:#906;
+						   border-radius:33px 33px;	
+							cursor:pointer;
+							}
+					
+								.back{
+							font-size:20px;	
+						     padding-left:40px;
+						    color:#CCC;
+							text-decoration:none;
+								}
+						.marque{
+						  color:#906;
+						  font-size:28px;	
+							
+							}
+				
+					
+						
+						
+   </style>
+
+
+</head>
+<body>
+
+   <div class="container">
+     <div class="left Fleft">
+     <img src="login.png" width="170px" height="150px"/>
+    <marquee behavior="alternate" class="marque"> Login  </marquee>
+     <br />
+<br />
+     <a href="main.html" class="back"> &larr; Back </a>
+
+       </div>
+      <div class="center Fleft">
+          <form>
+          <input type="text" placeholder="Username or Email" required class="txtE txt"/>
+          <input type="password" placeholder="Enter Your Password" required class="txtE txt"/>
+          <br />
+
+          <a href="#"> Forgotten Password?  </a>
+          <br />
+
+          <button class="btn"> Login   </button>
+          </form>
+      
+      </div>
+     
+   
+   </div>
+
+
+
+</body>
+</html>

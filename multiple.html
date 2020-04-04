@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>form</title>
+   <style>
+   *
+	   { margin:0px;
+	   box-sizing:border-box;}
+	
+	 body
+	 { background-image:url(multiple.jpeg);
+	 background-size:cover;}
+	
+       .container{
+		   height:400px;
+		   width:75%;
+		   margin-left:auto;
+		   margin-right:auto;
+		   margin-top:120px;
+		   
+		   }
+		   .Fleft{ float:left;}
+		   .Fright{ float:right;}
+		   .left{
+			    height:inherit;
+			  width:20%;
+		  	   
+			   }
+	     .center{
+			  border-right:5px solid red;
+			  height:inherit;
+			  width:60%;
+			  padding-left:60px; 
+			  padding-top:50px;
+			  padding-right:20px;
+			  background-color:#339;
+			   border-radius:33px 33px;
+			   }
+			   	   .right{
+			  border-right:5px solid red;
+			   border-radius:33px 33px;
+			 
+			  height:inherit;
+			  width:20%;
+		  	  background-color:#339;
+		      padding-left:25px;
+			  padding-right:10px;
+			  padding-top:50px;
+			 
+			   }
+   
+                .signup{
+				  font-size:32px;
+				  font-family:Verdana, Geneva, sans-serif;
+				  text-decoration:none; 
+				   color:#F00;
+				   padding-left:15px;
+				
+				   }
+                    .txt{
+					   height:40px;
+					   width:44%;
+					   padding-left:20px;	
+					   padding-right:20px;	
+                 		   border-radius:33px 33px;
+	                    margin-bottom:5px;
+				        border:3px solid #F00;				
+						font-size:16px;
+					  outline:none;
+		              color:#F00;
+					  background-color:#CCC;
+			     			}
+                    .txtE{
+					   height:40px;
+					   width:89%;
+					   background-color:#CCC;
+					   margin-bottom:5px;
+					   padding-left:20px;	
+					   padding-right:20px;	
+			   border-radius:33px 33px;
+	
+						font-size:16px;
+					border:3px solid #F00;				
+				outline:none;
+						
+						}
+						.genderM{
+						   margin-left:20px;	
+							
+							}
+							.btn
+							{
+							outline:none;
+							border:none;
+							width:40%;
+							height:50px;	
+								font-size:18px;
+								color:#CCC;
+								background-color:#339;
+								margin-top:10px;
+								margin-left:25%;
+								
+								}
+						.btn:hover
+						{
+						   background-color:#F00;
+						   
+						   border-radius:33px 33px;	
+							cursor:pointer;
+							}
+							.back{
+							font-size:20px;	
+						     padding-left:40px;
+						    color:#CCC;
+							text-decoration:none;
+								}
+						
+	.marque{
+						  color:red;
+						  font-size:28px;	
+							
+							}
+										
+   </style>
+
+
+</head>
+<body>
+
+   <div class="container">
+   <div class="left Fleft">   </div>
+     <div class="center Fleft">
+      <form>
+      <input type="text" placeholder="First Name" class="txt" required/>
+      <input type="text" placeholder="Last Name" class="txt" required/>
+      <input type="password" placeholder="Password" class="txt" required/>
+      <input type="password" placeholder="Confirm Password" class="txt" required/>
+      <input type="email" placeholder="Email" class="txtE" required/>
+      <input type="txt" placeholder="Username" class="txt" required/>
+      <input type="radio" name="gender" class="genderM"/>Male
+      <input type="radio" name="gender" class="genderM"/>Female
+      <input type="text" placeholder="Country" class="txt" required/>
+      <input type="text" placeholder="City" class="txt" required/>
+      <input type="submit" value="Create An Account" class="btn"/>
+      </form>
+      </div>
+      <div class="right Fleft">
+           <img src="signin.jpg" width="150px" height="150px"/>
+     <marquee behavior="alternate" class="marque"> SignUp  </marquee>
+ 
+       <br />
+       <br />
+
+       <a href="main.html" class="back"> &larr; Back </a>
+         
+      </div>
+   
+   
+   </div>
+
+
+
+</body>
+</html>
